@@ -4,6 +4,7 @@ import model.Team
 
 interface IResolver {
 
+
     // Выведите количество игроков, интересы которых не представляет агенство.
     fun getCountWithoutAgency(): Int
 
